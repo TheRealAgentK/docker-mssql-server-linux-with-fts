@@ -4,7 +4,7 @@
 # GitRepo: https://github.com/Microsoft/mssql-docker
 
 # Base OS layer: Latest Ubuntu LTS + mssql-server-linux (SQL Server engine + tools)
-FROM microsoft/mssql-server-linux
+FROM mcr.microsoft.com/mssql/server:2017-latest
 
 # Install curl since it is needed to get repo config
 # Get official Microsoft repository configuration
